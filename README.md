@@ -3,7 +3,7 @@
 
 A production-ready bookmark manager built with **Next.js 16 (App Router)** and **Supabase**, featuring Google OAuth authentication, real-time updates, and strict per-user data isolation via Row Level Security.
 
-🔗 **Live Demo:** https://my-vault-app-umber.vercel.app
+🔗 **Live Demo:**https://vault-bookmarks.vercel.app
 📦 **Repository:** https://github.com/teja-1206/basics
 
 ---
