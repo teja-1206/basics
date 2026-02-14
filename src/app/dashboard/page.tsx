@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 "use client";
 import { useEffect, useState, useRef } from 'react'
 import { createClient } from '@/utils/supabase/client'
