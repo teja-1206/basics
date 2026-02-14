@@ -1,3 +1,5 @@
+export const runtime = "nodejs";
+
 import { NextResponse } from 'next/server'
 import { createClient } from '@/utils/supabase/server'
 
@@ -15,6 +17,5 @@ export async function GET(request: Request) {
     }
   }
 
-  // If something goes wrong, send back to home
   return NextResponse.redirect(`${origin}/?error=auth_callback_failed`)
 }
