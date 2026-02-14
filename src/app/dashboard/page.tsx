@@ -118,7 +118,7 @@ export default function DashboardPage() {
 
       setUserEmail(user.email ?? null)
 
-      // 1. Initial Load
+      // 1. Initial Load ,loading happens here 
       const { data } = await supabase
         .from('bookmarks')
         .select('*')
