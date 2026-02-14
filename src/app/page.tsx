@@ -38,7 +38,7 @@ export default function LoginPage() {
     await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+       redirectTo: 'https://my-vault-app-umber.vercel.app/auth/callback',
       },
     })
   }
